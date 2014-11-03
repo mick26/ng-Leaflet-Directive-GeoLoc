@@ -1,0 +1,20 @@
+{
+  "name": "ng-Leaflet-GeoLocation",
+  "version": "0.0.1",
+  "authors": [
+    "Michael Cullen"
+  ],
+  "description": "GeoLocation with Angular and Leaflet",
+  "ignore": [
+    "**/*.txt",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-leaflet-directive": "~0.7.9"
+  },
+  "license": "MIT",
+  "private": true
+}

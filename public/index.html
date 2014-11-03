@@ -1,0 +1,47 @@
+<!--
+
+Chrome issue:
+http://stackoverflow.com/questions/6325796/navigator-geolocation-getcurrentposition-not-allowed-on-file-c-based-acce
+http://stackoverflow.com/questions/5423938/html-5-geo-location-prompt-in-chrome
+
+Simple Web Server:
+python -m SimpleHTTPServer
+-->
+
+<!DOCTYPE html>
+
+<html ng-app="myApp">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Leaflet, Angular GeoLocation</title>
+	<!-- CSS -->
+	<link rel="stylesheet" href="bower_components/leaflet/dist/leaflet.css" />
+	<link rel="stylesheet" href="css/style.css" />
+</head>
+
+
+<body ng-controller="MapCtrl">
+
+	<h1>Autodiscover GeoLocation</h1>
+    <form>
+        Latitude : <input type="number" step="any" ng-model="center.lat" />
+        Longitude : <input type="number" step="any" ng-model="center.lng" />
+        Zoom : <input type="number" step="any" ng-model="center.zoom" />
+
+        <button ng-click="center.autoDiscover=true">Discover position</button>
+    </form>
+
+    <!-- Map will be rendered here -->
+    <leaflet defaults="defaults" center="center" width="640" height="400"></leaflet>
+
+	<!-- JS -->
+	<script src="bower_components/angular/angular.min.js"></script> 
+	<script src="bower_components/leaflet/dist/leaflet.js"></script> 
+	<script src="bower_components/angular-leaflet-directive/dist/angular-leaflet-directive.min.js"></script>
+	<script src="js/app.js"></script>
+	<script src="js/controllers.js"></script>
+
+</body>
+</html>
