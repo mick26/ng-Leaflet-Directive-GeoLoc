@@ -2,7 +2,7 @@
 
 ### App Specifics
 
-The App makes use of the __angular-leaflet-directive__ created by [David Rubert](https://github.com/tombatossals/angular-leaflet-directive). The directive enables Angular to interact with maps manages by [LeafletJS](http://leafletjs.com/). This App is based on some of the examples given with the directive.
+The App makes use of the __angular-leaflet-directive__ created by [David Rubert](https://github.com/tombatossals/angular-leaflet-directive). The directive enables Angular to interact with maps managed by [LeafletJS](http://leafletjs.com/). This App is based on some of the examples given with the directive.
 
 
 ### Running the App
