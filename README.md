@@ -25,7 +25,15 @@ I have found that the location accuracy I have got from using the App to be over
 Vastly increased accuracy should be realised if GPS is used instead of IP address. Also mobile phone tower triangulation calculations should produce a quite accurate location calculation if a mobile phone device is used. 
 
 
+## Screen Shot
+
+<div align="center">
+	<img width="95%" src="screen-shot/my-geo-location.png" alt="My Location" title="My Location"</img>
+</div>
+
+
 <hr>
+
 
 Michael Cullen 2014
 
