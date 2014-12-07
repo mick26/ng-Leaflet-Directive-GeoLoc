@@ -1,0 +1,15 @@
+{
+  "version": "0.0.1",
+  "author": "Michael Cullen",
+  "private": true,
+  "name": "Get-Stock-Details",
+  "description": "Get Stock Details using Yahoo Finance API",
+  "license": "MIT",
+  "devDependencies": {},
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.10.4"
+  }
+}
